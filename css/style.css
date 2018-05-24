@@ -1,0 +1,110 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+img {
+  /*display: block;*/
+/*  width: 100vw;
+  height: 100vh;*/
+  position:relative;
+  /*object-fit: cover;*/
+  z-index: 1;
+}
+
+.parallax-container {
+  min-height: 700px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+#mainheader {
+  padding-top: 20px;
+  font-family: 'Elsie', cursive;
+
+}
+
+#intro, #intro2 {
+  font-family: 'Questrial', sans-serif;
+  color: black;
+  display: inline;
+  position: absolute;
+  /*position: fixed;*/
+/*  z-index: 1;*/
+}
+
+#intro_container {
+    padding-top: 50px;
+}
+
+#intro2 {
+
+  color: purple;
+  left: 100px;
+}
+
+#intro {
+  left: 5px;
+  padding-top: 10px;
+}
+
+#stacks {
+    padding-top: 100px;
+    position: absolute;
+    
+}
+
+#holding_lines {
+  padding-top: 120px;
+  color: gray;
+}
+
