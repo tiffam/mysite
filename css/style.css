@@ -20,12 +20,7 @@ p {
 }
 
 img {
-  /*display: block;*/
-/*  width: 100vw;
-  height: 100vh;*/
   position:relative;
-  /*object-fit: cover;*/
-  z-index: 1;
 }
 
 .parallax-container {
@@ -39,6 +34,10 @@ img {
     width: 100%;
   }
 
+  .project1 {
+  height: 400px;
+}
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -47,12 +46,23 @@ img {
   #index-banner .section {
     top: 10%;
   }
+
+
 }
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
   }
+  #flower, #me {
+    height: 40%;
+    background-image: cover;
+  }
+
+  .project1 {
+  height: 100%;
+  }
+
 }
 
 .icon-block {
@@ -67,44 +77,91 @@ footer.page-footer {
   margin: 0;
 }
 
-#mainheader {
-  padding-top: 20px;
+#mainheader, #thankyou_header {
   font-family: 'Elsie', cursive;
+  text-align: center;
+}
+
+#thankyou {
+  margin-top: -35px;
+  padding: 40px 20px;
+  font-family: 'Questrial', sans-serif;
 
 }
 
-#intro, #intro2 {
+#thankyou_header {
+  margin-top: 100px;
+}
+
+#me {
+  margin-top:10px;
+}
+
+#intro, #intro2, .project_title {
   font-family: 'Questrial', sans-serif;
   color: black;
-  display: inline;
-  position: absolute;
-  /*position: fixed;*/
-/*  z-index: 1;*/
 }
 
 #intro_container {
-    padding-top: 50px;
-}
-
-#intro2 {
-
-  color: purple;
-  left: 100px;
+  margin-top: 80px;
 }
 
 #intro {
-  left: 5px;
-  padding-top: 10px;
+  color: purple;
+  text-align: left;
+}
+
+#intro2 {
+  margin-top: -10px;
 }
 
 #stacks {
-    padding-top: 100px;
-    position: absolute;
+  /*padding-top: 100px;*/
+  /*position: absolute;*/
     
 }
 
 #holding_lines {
-  padding-top: 120px;
+  /*padding-top: 120px;*/
   color: gray;
 }
 
+.container {
+  text-align: center;
+}
+
+#email_button {
+  position: relative;
+  top: 20px;
+}
+
+#mywork {
+  font-family: 'Questrial', sans-serif;
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+
+.project {
+  padding: 20px;
+}
+
+.carousel {
+    /*height: 600px;*/
+}
+.slider .indicators .indicator-item.active  {
+  background-color: #bcaaa4;
+}
+
+hr {
+  border: 1px solid white;
+}
+
+.iconrow {
+  border: 20px ridge #fcf9f9;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  padding-right: 30px ;
+  box-shadow: inset 0 0 10px #000000;
+
+}
