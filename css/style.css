@@ -38,21 +38,24 @@ img {
   height: 400px;
 }
 
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width : 1280px) {
   .parallax-container .section {
     position: absolute;
-    top: 40%;
+    top: 30%;
   }
   #index-banner .section {
-    top: 10%;
+    top: 0;
   }
 
+  #intro2 {
+    margin-left: -65px;
+  }
 
 }
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
-    top: 0;
+    top: 10%;
   }
   #flower, #me {
     height: 40%;
@@ -61,6 +64,11 @@ img {
 
   .project1 {
   height: 100%;
+  }
+
+  #intro2 {
+    margin-left: 0px;
+
   }
 
 }
@@ -106,6 +114,7 @@ footer.page-footer {
 #intro2 {
   margin-top: -5px;
   margin-bottom: -5px;
+  /*margin-left: -70px;*/
 }
 
 #stacks {
