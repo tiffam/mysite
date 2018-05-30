@@ -30,11 +30,12 @@ img {
   color: rgba(255,255,255,.9);
 
 }
-  .parallax-container .section {
+
+.parallax-container .section {
     width: 100%;
   }
 
-  .project1 {
+.project1 {
   height: 400px;
 }
 
@@ -107,7 +108,6 @@ footer.page-footer {
   font-weight: 800;
 }
 
-
 #me {
   margin-top:10px;
 }
@@ -129,18 +129,6 @@ footer.page-footer {
 #intro2 {
   margin-top: -5px;
   margin-bottom: -5px;
-  /*margin-left: -70px;*/
-}
-
-#stacks {
-  /*padding-top: 100px;*/
-  /*position: absolute;*/
-    
-}
-
-#holding_lines {
-  /*padding-top: 120px;*/
-  color: gray;
 }
 
 .container {
@@ -163,9 +151,6 @@ footer.page-footer {
   padding: 20px;
 }
 
-.carousel {
-    /*height: 600px;*/
-}
 .slider .indicators .indicator-item.active  {
   background-color: #bcaaa4;
 }
@@ -181,21 +166,17 @@ hr {
   padding: 20px;
   padding-right: 30px ;
   box-shadow: inset 0 0 10px #000000;
-
 }
 
 #thankyou {
   margin-top: -35px;
   padding: 40px 20px;
   font-family: 'Questrial', sans-serif;
-
 }
 
 #thankyou_header {
   margin-top: 100px;
-
 }
-
 
 .myname {
   font-family: 'Dancing Script', cursive;
